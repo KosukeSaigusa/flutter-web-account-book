@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../calendar/ui/calendar_page.dart';
-import '../fixed_fee/ui/fixed_fee_page.dart';
+import '../calendar/calendar_page.dart';
+import '../fixed_fee/fixed_fee_page.dart';
 import 'app_route.dart';
-import 'ui/main_page.dart';
-import 'ui/not_found_page.dart';
+import 'main_page.dart';
+import 'not_found_page.dart';
 
 /// AppRoute インスタンスの一覧
 /// 各ページのコンストラクタに引数を渡さない済むように、そのような場合は ProviderScope.override で

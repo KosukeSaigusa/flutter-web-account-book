@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import '../calendar/ui/calendar_page.dart';
-import '../fixed_fee/ui/fixed_fee_page.dart';
+import '../calendar/calendar_page.dart';
+import '../fixed_fee/fixed_fee_page.dart';
 
 /// 現在選択状態になっている下タブを管理する StateProvider。
 final bottomTabStateProvider = StateProvider<BottomTab>((_) => bottomTabs[0]);

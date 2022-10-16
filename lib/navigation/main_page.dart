@@ -3,8 +3,8 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import '../../utils/logger.dart';
 import '../../utils/scaffold_messenger_service.dart';
-import '../app_router.dart';
-import '../bottom_tab.dart';
+import 'app_router.dart';
+import 'bottom_tab.dart';
 import 'not_found_page.dart';
 
 /// Consistent な BottomNavigationBar を含むアプリのメインのページ。

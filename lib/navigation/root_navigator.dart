@@ -4,7 +4,7 @@ import 'package:hooks_riverpod/hooks_riverpod.dart';
 import '../utils/loading.dart';
 import 'app_router.dart';
 import 'global_key.dart';
-import 'ui/not_found_page.dart';
+import 'not_found_page.dart';
 
 /// ウィジェットツリーの上位にある Navigator を含むウィジェット。
 class RootNavigator extends HookConsumerWidget {

@@ -8,7 +8,7 @@ import '../utils/extensions/dynamic.dart';
 import 'app_route.dart';
 import 'app_router_state.dart';
 import 'app_routes.dart';
-import 'ui/not_found_page.dart';
+import 'not_found_page.dart';
 
 final appRouterProvider = Provider<AppRouter>((_) => AppRouter(appRoutes));
 
