@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
+import '../auth/auth.dart';
+
 class CalendarPage extends HookConsumerWidget {
   const CalendarPage({super.key});
 
@@ -13,7 +15,15 @@ class CalendarPage extends HookConsumerWidget {
     return Scaffold(
       appBar: AppBar(title: const Text('カレンダー')),
       body: SingleChildScrollView(
-        child: Column(),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            ElevatedButton(
+              onPressed: () => ref.read(signOutProvider)(),
+              child: const Text('サインアウト'),
+            ),
+          ],
+        ),
       ),
     );
   }

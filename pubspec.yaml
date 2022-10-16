@@ -21,11 +21,13 @@ dependencies:
   font_awesome_flutter:
   freezed_annotation:
   gap:
+  google_sign_in:
   hooks_riverpod:
   intl:
   json_annotation:
   path_to_regexp:
   shimmer:
+  sign_in_button:
   simple_logger:
   tuple:
   uuid:
